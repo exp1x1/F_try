@@ -1,0 +1,31 @@
+/**{
+    border: 3px solid black;
+}*/
+
+
+.header{
+    display: flex;
+    margin: auto;
+    padding: 1vh;   
+    justify-content: space-between; 
+}
+
+.header,.logo{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.H_right{
+
+}
+
+.H_left{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+a , .H_left{
+    text-decoration: none;
+}
+
