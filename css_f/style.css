@@ -3,15 +3,21 @@
 }*/
 
 body{
-    
+    margin: auto;
     min-height: 100vh; 
 }
 
 /* header part */
+
+#head{
+    background-color: #1f2937;
+    margin: 0;
+}
+
 .header{
     display: flex;
     flex: 1;
-    margin: 1px 10vw 1px 10vw;
+    margin: 1px 10vw 0px 10vw;
     padding: 1vh;
     max-height: 82px;   
     justify-content: space-between;
@@ -25,7 +31,7 @@ body{
     font-size: 24px;
     
 }
-
+ 
 .H_left{
     display: flex;
     align-items: baseline;
@@ -43,6 +49,8 @@ a , .header{
 .content{
     display: flex;
     flex-direction: column;
+    background-color: #1f2937;
+    margin-top: 0;
 }
 
 /* con1 part */
@@ -207,10 +215,12 @@ img{
 /* footer part*/ 
 
 .footer{
-    
+    background-color: #1f2937;   
    display: flex;
    color: #f9faf8;
    align-items: center;
    justify-content: center;
-   margin-top: 1vh;
+   margin-top: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
