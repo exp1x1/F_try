@@ -17,7 +17,7 @@ body{
 .header{
     display: flex;
     flex: 1;
-    margin: 1px 10vw 0px 10vw;
+    margin: 1px 12vw 0px 12vw;
     padding: 1vh;
     max-height: 82px;   
     justify-content: space-between;
@@ -59,7 +59,7 @@ a , .header{
     display: flex;
     color: #f9faf8;
     flex: 1;
-    margin: 1px 10vw 1px 10vw;    
+    margin: 1px 12vw 1px 12vw;    
     padding: 1vh;   
     justify-content: space-between;
     background-color: #1f2937;
@@ -116,7 +116,7 @@ img{
 
 .con2-b2{
     display: flex;
-    margin: 16px 12vw 64px 12vw;
+    margin: 16px 14vw 64px 14vw;
     align-items: center;
     justify-content: center;
     gap: 26px;
@@ -148,7 +148,7 @@ img{
 .con3-b1{
     display: flex;
     flex-direction: column;
-    margin: 64px 12vw 64px 12vw;
+    margin: 64px 18vw 64px 18vw;
     justify-content: center;
     align-items: center;
     font-size: 36px;
